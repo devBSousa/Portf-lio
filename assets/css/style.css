@@ -519,3 +519,93 @@ body {
     color: white;
     font-size: 25px;
 }
+
+/* Responsividade para dispositivos móveis */
+@media screen and (max-width: 768px) {
+    body {
+        overflow-x: hidden;
+        
+    }
+
+    .header {
+        display: none;
+    }
+
+    #hero {
+        padding-top: 30%;
+    }
+
+    .home-hero-info {
+        width: 90%;
+        text-align: center;
+    }
+
+    .header-main {
+        display: none;
+    }
+
+    .heading-primary{
+        font-size: 25px;
+    }
+
+    .hero-socials-content {
+    display: none;
+  }
+
+  .text-primary {
+    font-size: 16px;
+    text-align: justify;
+  }
+
+  .about-info {
+    width: 90%;
+  }
+
+  .about-skills {
+    display: none;
+  }
+  
+  .about-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .about-text {
+    width: 90%;
+  }
+
+  .main-container {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 0;
+    width: 100%;
+  }
+
+  .project-content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+  .project-row{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .project-img-cont {
+    width: 100%;
+  }
+
+  .project-img {
+    width:100%;
+  }
+ 
+
+}
