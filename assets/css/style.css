@@ -623,8 +623,10 @@ body {
     display: flex;
     flex-direction: column;
     width: 90%;
+    gap: 23px;
     align-items: center;
     justify-content: center;
+    padding-bottom: 3.5rem;
   }
 
   .project-img-cont {
