@@ -555,7 +555,7 @@ body {
 
     #hero {
         width: 100%;
-        padding-top: 70%;
+        padding-top: 50%;
     }
 
     .home-hero-info {
@@ -564,7 +564,7 @@ body {
     }
 
     .home-hero-content .heading-primary {
-        width: 50%;
+        width: 70%;
         text-align: center;
     }
 
