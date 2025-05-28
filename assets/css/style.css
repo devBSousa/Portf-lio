@@ -307,7 +307,6 @@ body {
 
 .skill {
     display: flex;
-    
     align-items: center;
     justify-content: center;
     width: 80px;
@@ -589,17 +588,41 @@ body {
     width: 90%;
   }
 
-  .about-skills {
-    display: none;
-  }
-  
   .about-container {
     display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .about-skills {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 25px;
+  }
+
+  .skills-content {
+    align-items: center;
     justify-content: center;
     width: 100%;
   }
 
+  .skill {
+    width: 40px;
+  }
+  
+  .about-container {
+    
+    width: 100%;
+  }
+
   .about-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 90%;
   }
 
